@@ -14,7 +14,10 @@
        "#1a1a1b", 
        "#1a1a1b" 
      ], 
-
+     "TEXT_NORMAL": [ 
+       "#ffffff", 
+       "#ffffff" 
+     ], 
      "TEXT_MUTED": [ 
        "#646464", 
        "#646464" 
