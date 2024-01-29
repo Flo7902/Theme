@@ -91,8 +91,8 @@
        "1e1e1f" 
      ],
      "BACKGROUND_MODIFIER_SELECTED": [ 
-       "#e93e3f", 
-       "#e93e3f" 
+       "#4d4d4d", 
+       "#4d4d4d" 
      ], 
      "SCROLLBAR_THIN_THUMB": [ 
        "transparent", 
@@ -143,7 +143,7 @@
      "GREEN_600": "#d64746", 
      "BRAND_300": "#c6c3c4", 
      "BRAND_330": "#c6c3c4", 
-     "BRAND_345": "#D2042D", 
+     "BRAND_345": "#c6c3c4", 
      "BRAND_400": "#D2042D", 
      "BRAND_430": "#D2042D", 
      "BRAND_460": "#D2042D", 
