@@ -18,6 +18,14 @@
        "#ffffff", 
        "#ffffff" 
      ], 
+     "TEXT_SECONDARY": [
+        "#d28077",
+        "#d28077"
+     ],
+	  "TEXT_PRIMARY": [
+        "#ffa7a6",
+        "#ffa7a6"
+     ],
      "TEXT_MUTED": [ 
        "#646464", 
        "#646464" 
@@ -115,10 +123,7 @@
        "#bbbbbf" 
      ]
    }, 
-   "rawColors": { 
-     "PRIMARY_100": "#ffffff",
-     "PRIMARY_200": "#ffffff",
-     "PRIMARY_300": "#ffffff",
+   "rawColors": {
      "PRIMARY_230": "#e93e3f",
      "PRIMARY_600": "#1a1a1b", 
      "PRIMARY_500": "#1a1a1b", 
