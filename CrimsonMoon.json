@@ -1,7 +1,7 @@
 { 
    "name": "Crimson Moon", 
-   "version": "1.0", 
-   "description": "A Black theme with red/pinkish accents and a nice background ", 
+   "version": "6.9", 
+   "description": "A Black theme with red/pinkish accents and a nice background", 
    "authors": [ 
      { 
        "name": "SryFlo", 
@@ -31,8 +31,8 @@
        "#646464" 
      ], 
       "TEXT_DANGER": [ 
-       "#646464", 
-       "#646464" 
+       "#D53F3F", 
+       "#D53F3F" 
      ], 
       "TEXT_LINK": [ 
        "#D2042D", 
