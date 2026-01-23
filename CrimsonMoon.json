@@ -1,5 +1,5 @@
 { 
-   "name": "Crimson Moon", 
+   "name": "Crimson Moon Test", 
    "version": "6.9", 
    "description": "A Black theme with red/pinkish accents and a nice background", 
    "authors": [ 
@@ -231,10 +231,11 @@
      "PLUM_10": "#cdcdcd"
    },
      "background": { 
-    "url": "https://e0.pxfuel.com/wallpapers/443/886/desktop-wallpaper-sunset-dark-theme-minimal-nature-dark-minimalist-theme-sun.jpg",
+    "url": "https://i.imgur.com/lrVCj59.png",
      "blur": 0, 
      "alpha": 0.6 
   
    }, 
    "spec": 2
  }
+
