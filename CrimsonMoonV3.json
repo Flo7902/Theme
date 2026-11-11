@@ -109,6 +109,11 @@
       "100": "#FFFFFF"
     }
   },
+  "background": {
+    "url": "https://i.imgur.com/lrVCj59.png",
+    "blur": 0,
+    "alpha": 0.6
+  },
   "raw": {},
   "semantic": {
     "BLACK": "#FF0000",
