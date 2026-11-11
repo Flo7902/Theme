@@ -1,6 +1,6 @@
 {
   "name": "CrimsonMoon V3",
-  "description": "Konvertiert aus einem Reseam-Theme (rotes Theme)",
+  "description": "Rotes Theme (aus Reseam konvertiert)",
   "authors": [
     {
       "name": "SryFlo",
@@ -9,21 +9,49 @@
   ],
   "spec": 2,
   "semanticColors": {
-    "CHANNEL_ICON": [
-      "#CC2525",
-      "#CC2525"
+    "REDESIGN_BUTTON_PRIMARY_BACKGROUND": [
+      "#FF5050",
+      "#FF5050"
     ],
-    "CHANNELS_DEFAULT": [
-      "#D74141",
-      "#D74141"
+    "REDESIGN_BUTTON_PRIMARY_ALT_BACKGROUND": [
+      "#FF5050",
+      "#FF5050"
     ],
-    "CHANNELTEXTAREA_BACKGROUND": [
-      "#DB4444",
-      "#DB4444"
+    "REDESIGN_BUTTON_PRIMARY_ACTIVE_BACKGROUND": [
+      "#E04040",
+      "#E04040"
     ],
-    "INTERACTIVE_ICON_HOVER": [
-      "#D53E3E",
-      "#D53E3E"
+    "REDESIGN_BUTTON_PRIMARY_PRESSED_BACKGROUND": [
+      "#E04040",
+      "#E04040"
+    ],
+    "BG_BRAND": [
+      "#FF5050",
+      "#FF5050"
+    ],
+    "TEXT_BRAND": [
+      "#FF5050",
+      "#FF5050"
+    ],
+    "BORDER_BRAND": [
+      "#FF5050",
+      "#FF5050"
+    ],
+    "CONTROL_BRAND_FOREGROUND": [
+      "#FF5050",
+      "#FF5050"
+    ],
+    "CONTROL_BRAND_FOREGROUND_NEW": [
+      "#FF5050",
+      "#FF5050"
+    ],
+    "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+      "#CF4040",
+      "#CF4040"
+    ],
+    "TEXT_LINK": [
+      "#FF5050",
+      "#FF5050"
     ],
     "BACKGROUND_ACCENT": [
       "#CF4040",
@@ -37,39 +65,11 @@
       "#A11B1E3D",
       "#A11B1E3D"
     ],
-    "SWITCH_THUMB_BACKGROUND_SELECTED_DEFAULT": [
-      "#F15A5A",
-      "#F15A5A"
-    ],
-    "STATUS_WARNING": [
-      "#EB4848",
-      "#EB4848"
-    ],
-    "STATUS_WARNING_BACKGROUND": [
-      "#C82626",
-      "#C82626"
-    ],
-    "TAB_LABEL_TEXT_FOCUSED": [
-      "#FF5E5E",
-      "#FF5E5E"
-    ],
-    "CONTROL_CONNECTED_TEXT_DEFAULT": [
-      "#FF6565",
-      "#FF6565"
-    ],
-    "CHECKBOX_ICON_ACTIVE": [
-      "#FF5050",
-      "#FF5050"
-    ],
-    "CONTROL_ICON_ONLY_ICON_DEFAULT": [
-      "#FF5050",
-      "#FF5050"
-    ],
     "ICON_DEFAULT": [
       "#FF5050",
       "#FF5050"
     ],
-    "INPUT_ICON_DEFAULT": [
+    "ICON_SUBTLE": [
       "#FF5050",
       "#FF5050"
     ],
@@ -77,9 +77,37 @@
       "#FF5050",
       "#FF5050"
     ],
+    "INTERACTIVE_ICON_HOVER": [
+      "#D53E3E",
+      "#D53E3E"
+    ],
+    "INPUT_ICON_DEFAULT": [
+      "#FF5050",
+      "#FF5050"
+    ],
+    "CHAT_INPUT_ICON_DEFAULT_TINT": [
+      "#FF5050",
+      "#FF5050"
+    ],
+    "CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": [
+      "#FF5050",
+      "#FF5050"
+    ],
+    "CONTROL_ICON_ONLY_ICON_DEFAULT": [
+      "#FF5050",
+      "#FF5050"
+    ],
+    "CONTROL_ICON_ONLY_BACKGROUND_ACTIVE": [
+      "#FF505033",
+      "#FF505033"
+    ],
     "MOBILE_GUILDBAR_ICON_DEFAULT": [
       "#FF5050",
       "#FF5050"
+    ],
+    "MOBILE_GUILDBAR_ICON_BACKGROUND_DEFAULT": [
+      "#FF50501F",
+      "#FF50501F"
     ],
     "MOBILE_HEADER_ICON_DEFAULT": [
       "#FF5050",
@@ -89,34 +117,50 @@
       "#FF5050",
       "#FF5050"
     ],
-    "CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": [
+    "CHECKBOX_ICON_ACTIVE": [
       "#FF5050",
       "#FF5050"
     ],
-    "CHAT_INPUT_ICON_DEFAULT_TINT": [
-      "#FF5050",
-      "#FF5050"
+    "CHANNEL_ICON": [
+      "#CC2525",
+      "#CC2525"
     ],
-    "ICON_SUBTLE": [
-      "#FF5050",
-      "#FF5050"
+    "CHANNELS_DEFAULT": [
+      "#D74141",
+      "#D74141"
     ],
-    "CONTROL_ICON_ONLY_BACKGROUND_ACTIVE": [
-      "#FF505033",
-      "#FF505033"
+    "CHANNELTEXTAREA_BACKGROUND": [
+      "#DB4444",
+      "#DB4444"
     ],
-    "MOBILE_GUILDBAR_ICON_BACKGROUND_DEFAULT": [
-      "#FF50501F",
-      "#FF50501F"
+    "SWITCH_THUMB_BACKGROUND_SELECTED_DEFAULT": [
+      "#F15A5A",
+      "#F15A5A"
+    ],
+    "TAB_LABEL_TEXT_FOCUSED": [
+      "#FF5E5E",
+      "#FF5E5E"
+    ],
+    "CONTROL_CONNECTED_TEXT_DEFAULT": [
+      "#FF6565",
+      "#FF6565"
+    ],
+    "STATUS_WARNING": [
+      "#EB4848",
+      "#EB4848"
+    ],
+    "STATUS_WARNING_BACKGROUND": [
+      "#C82626",
+      "#C82626"
     ]
   },
-  "background": {
+    "background": {
     "url": "https://i.imgur.com/lrVCj59.png",
     "blur": 0,
     "alpha": 0.6
   },
-
   "rawColors": {
+    "BLACK": "#FF0000",
     "BRAND_260": "#FFB3AE",
     "BRAND_300": "#FF8983",
     "BRAND_330": "#FF8983",
@@ -189,6 +233,24 @@
     "YELLOW_730": "#71000D",
     "YELLOW_760": "#68000C",
     "YELLOW_800": "#5C0009",
-    "BLACK": "#FF0000"
+    "GREEN_260": "#FF5050",
+    "GREEN_300": "#FF5050",
+    "GREEN_330": "#FF5050",
+    "GREEN_345": "#FF5050",
+    "GREEN_360": "#FF5050",
+    "GREEN_400": "#FF5050",
+    "GREEN_430": "#FF5050",
+    "GREEN_460": "#FF5050",
+    "GREEN_500": "#FF5050",
+    "GREEN_530": "#FF5050",
+    "GREEN_560": "#FF5050",
+    "GREEN_600": "#FF5050",
+    "GREEN_630": "#FF5050",
+    "GREEN_660": "#FF5050",
+    "GREEN_700": "#FF5050",
+    "GREEN_730": "#FF5050",
+    "GREEN_760": "#FF5050",
+    "GREEN_800": "#FF5050"
   }
 }
+
