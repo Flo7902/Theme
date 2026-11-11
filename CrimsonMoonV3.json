@@ -209,9 +209,21 @@
       "#C82626",
       "#C82626"
     ],
+        "MESSAGE_MENTIONED_BACKGROUND_DEFAULT": [
+        "#F65C5C1a",
+        "#F65C5C1a"
+    ],
+    "MESSAGE_MENTIONED_BACKGROUND_HOVER": [
+        "#F65C5C14",
+        "#F65C5C14"
+    ],
         "MESSAGE_HIGHLIGHT_BACKGROUND_DEFAULT": [
-        "#f0b2321a",
-        "#f0b2321a"
+        "#F65C5C1a",
+        "#F65C5C1a"
+    ],
+    "MESSAGE_HIGHLIGHT_BACKGROUND_HOVER": [
+        "#F65C5C0F",
+        "#F65C5C0F"
     ]
   },
     "background": {
@@ -276,7 +288,7 @@
     "BLUE_760": "#690000",
     "BLUE_800": "#5D0000",
     "YELLOW_260": "#FFB3AD",
-    "YELLOW_300": "#FF8982",
+    "YELLOW_300": "#F65C5C",
     "YELLOW_330": "#FF8982",
     "YELLOW_345": "#FF5353",
     "YELLOW_360": "#FF5353",
