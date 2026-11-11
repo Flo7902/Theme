@@ -41,6 +41,10 @@
       "#FF5050",
       "#FF5050"
     ],
+        "BACKGROUND_BRAND": [
+        "#FF5050",
+        "#FF5050"
+    ],
     "BADGE_BACKGROUND_BRAND": [
         "#FF5050",
         "#FF5050"
@@ -62,6 +66,22 @@
       "#FF5050"
     ],
     "CONTROL_BRAND_FOREGROUND_NEW": [
+      "#FF5050",
+      "#FF5050"
+    ],
+    "CONTROL_ICON_ONLY_BACKGROUND_ACTIVE": [
+      "#FF505033",
+      "#FF505033"
+    ],
+        "CONTROL_PRIMARY_BACKGROUND_DEFAULT": [
+        "#FF5050",
+        "#FF5050"
+    ],
+        "CONTROL_PRIMARY_BORDER_DEFAULT": [
+        "#FF5050",
+        "#FF5050"
+    ],
+        "CONTROL_ICON_ONLY_ICON_DEFAULT": [
       "#FF5050",
       "#FF5050"
     ],
@@ -121,22 +141,6 @@
       "#FF5050",
       "#FF5050"
     ],
-    "CONTROL_ICON_ONLY_ICON_DEFAULT": [
-      "#FF5050",
-      "#FF5050"
-    ],
-    "CONTROL_ICON_ONLY_BACKGROUND_ACTIVE": [
-      "#FF505033",
-      "#FF505033"
-    ],
-        "CONTROL_PRIMARY_BACKGROUND_DEFAULT": [
-        "#FF5050",
-        "#FF5050"
-    ],
-        "CONTROL_PRIMARY_BORDER_DEFAULT": [
-        "#FF5050",
-        "#FF5050"
-    ],
         "CHECKBOX_BACKGROUND_SELECTED_DEFAULT": [
         "#FF5050",
         "#FF5050"
@@ -158,6 +162,10 @@
       "#FF5050"
     ],
         "MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT": [
+        "#FF5050",
+        "#FF5050"
+    ],
+        "PROGRESSBAR_INDICATOR_BACKGROUND": [
         "#FF5050",
         "#FF5050"
     ],
