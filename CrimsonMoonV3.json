@@ -25,9 +25,29 @@
       "#E04040",
       "#E04040"
     ],
+        "REDESIGN_INPUT_CONTROL_SELECTED": [
+        "#FF5050",
+        "#FF5050"
+    ],
+        "SWITCH_BACKGROUND_SELECTED_DEFAULT": [
+        "#FF5050",
+        "#FF5050"
+    ],
+        "SWITCH_THUMB_ICON_ACTIVE": [
+        "#FF5050",
+        "#FF5050"
+    ],
     "BG_BRAND": [
       "#FF5050",
       "#FF5050"
+    ],
+    "BADGE_BACKGROUND_BRAND": [
+        "#FF5050"",
+        "#FF5050"",
+    ],
+        "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": [
+        "#FF5050",
+        "#FF5050"
     ],
     "TEXT_BRAND": [
       "#FF5050",
@@ -81,6 +101,10 @@
       "#D53E3E",
       "#D53E3E"
     ],
+        "INTERACTIVE_ACCENT_BACKGROUND_SELECTED": [
+        "#FF5050",
+        "#FF5050"
+    ],
     "INPUT_ICON_DEFAULT": [
       "#FF5050",
       "#FF5050"
@@ -105,6 +129,22 @@
       "#FF505033",
       "#FF505033"
     ],
+        "CONTROL_PRIMARY_BACKGROUND_DEFAULT": [
+        "#FF5050",
+        "#FF5050"
+    ],
+        "CONTROL_PRIMARY_BORDER_DEFAULT": [
+        "#FF5050",
+        "#FF5050"
+    ],
+        "CHECKBOX_BACKGROUND_SELECTED_DEFAULT": [
+        "#FF5050",
+        "#FF5050"
+    ],
+        "CHECKBOX_BORDER_SELECTED_DEFAULT": [
+        "#FF5050",
+        "#FF5050"
+    ],
     "MOBILE_GUILDBAR_ICON_DEFAULT": [
       "#FF5050",
       "#FF5050"
@@ -116,6 +156,10 @@
     "MOBILE_HEADER_ICON_DEFAULT": [
       "#FF5050",
       "#FF5050"
+    ],
+        "MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT": [
+        "#FF5050",
+        "#FF5050"
     ],
     "TABLEROW_ICON_COLOR_DEFAULT": [
       "#FF5050",
@@ -152,6 +196,10 @@
     "STATUS_WARNING": [
       "#EB4848",
       "#EB4848"
+    ],
+       "PROGRESSBAR_INDICATOR_BACKGROUND": [
+         "#FF5050",
+
     ],
     "STATUS_WARNING_BACKGROUND": [
       "#C82626",
