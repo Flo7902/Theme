@@ -185,10 +185,6 @@
       "#D74141",
       "#D74141"
     ],
-    "CHANNELTEXTAREA_BACKGROUND": [
-      "#DB4444",
-      "#DB4444"
-    ],
     "SWITCH_THUMB_BACKGROUND_SELECTED_DEFAULT": [
       "#F15A5A",
       "#F15A5A"
@@ -236,7 +232,6 @@
     "alpha": 0.6
   },
   "rawColors": {
-    "BLACK": "#FF0000",
     "BRAND_260": "#FFB3AE",
     "BRAND_300": "#FF8983",
     "BRAND_330": "#FF8983",
