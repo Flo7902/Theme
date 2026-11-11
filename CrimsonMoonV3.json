@@ -165,10 +165,6 @@
         "#FF5050",
         "#FF5050"
     ],
-        "PROGRESSBAR_INDICATOR_BACKGROUND": [
-        "#FF5050",
-        "#FF5050"
-    ],
     "TABLEROW_ICON_COLOR_DEFAULT": [
       "#FF5050",
       "#FF5050"
@@ -208,7 +204,6 @@
        "PROGRESSBAR_INDICATOR_BACKGROUND": [
         "#FF5050",
         "#FF5050"
-
     ],
     "STATUS_WARNING_BACKGROUND": [
       "#C82626",
