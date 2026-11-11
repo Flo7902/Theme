@@ -89,6 +89,10 @@
       "#FF5050",
       "#FF5050"
     ],
+     "CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND": [
+       "#FF5050",
+       "#FF5050"
+     ],
     "CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": [
       "#FF5050",
       "#FF5050"
