@@ -13,6 +13,12 @@
       "#FF5050",
       "#FF5050"
     ],
+        "APP_FRAME_BORDER": {
+        "dark": "#2b2d31",
+        "light": "#f2f3f5",
+        "midnight": "#6c6f7c3d",
+        "darker": "#1c1d23"
+    },
     "REDESIGN_BUTTON_PRIMARY_ALT_BACKGROUND": [
       "#FF5050",
       "#FF5050"
