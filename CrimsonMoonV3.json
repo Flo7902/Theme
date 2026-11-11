@@ -198,7 +198,8 @@
       "#EB4848"
     ],
        "PROGRESSBAR_INDICATOR_BACKGROUND": [
-         "#FF5050",
+        "#FF5050",
+        "#FF5050"
 
     ],
     "STATUS_WARNING_BACKGROUND": [
