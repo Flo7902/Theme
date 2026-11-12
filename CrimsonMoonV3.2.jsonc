@@ -1,0 +1,417 @@
+// ============================================================================
+//  CrimsonMoon V3.2  –  ORGANIZED + COMMENTED VERSION (for editing only)
+//  Install the comment-free file CrimsonMoonV3.2.json instead; Discord mods can't read comments.
+//
+//  semanticColors = color per FUNCTION, format ["dark", "light"]  (wins over rawColors)
+//  rawColors      = color per PALETTE STEP (many places share them)
+//  Each semantic line shows the original Discord default after "default:".
+//  Accent: #FF5050 (light red), pressed: #E04040, soft: #FF505033 (alpha).
+// ============================================================================
+{
+  "name": "CrimsonMoon V3",
+  "description": "Red theme (converted from Reseam)",
+  "authors": [{ "name": "SryFlo", "id": "260439195451916299" }],
+  "spec": 2,
+  "background": {"url": "https://i.imgur.com/lrVCj59.png", "blur": 0, "alpha": 0.6},
+
+  "semanticColors": {
+
+    // ---------- CHAT INPUT / MESSAGE BOX ----------
+    "CHAT_INPUT_ICON_DEFAULT_TINT": ["#FF5050", "#FF5050"],  // default: #b5bac1
+    "CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND": ["#FF5050", "#FF5050"],  // send button background; default: #5865f2
+    "CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": ["#FF5050", "#FF5050"],  // default: #dbdee1
+    "CHAT_INPUT_ACTION_ICON_ACTIVE_TINT": ["#FF8983", "#FF8983"],  // chat input icons while pressed; default: #949cf7
+
+    // ---------- SWITCHES, CHECKBOXES & INPUT CONTROLS ----------
+    "REDESIGN_INPUT_CONTROL_SELECTED": ["#FF5050", "#FF5050"],  // default: #5865f2
+    "SWITCH_BACKGROUND_SELECTED_DEFAULT": ["#FF5050", "#FF5050"],  // switch track when ON; default: #5865f2
+    "SWITCH_THUMB_ICON_ACTIVE": ["#FF5050", "#FF5050"],  // default: #5865f2
+    "CHECKBOX_BACKGROUND_SELECTED_DEFAULT": ["#FF5050", "#FF5050"],  // default: #5865f2
+    "CHECKBOX_BORDER_SELECTED_DEFAULT": ["#FF5050", "#FF5050"],  // default: #5865f2
+    "CHECKBOX_ICON_ACTIVE": ["#ffffff", "#ffffff"],  // default: #ffffff
+    "SWITCH_THUMB_BACKGROUND_SELECTED_DEFAULT": ["#FFFFFF", "#FFFFFF"],  // switch knob when ON; default: #ffffff
+
+    // ---------- BUTTONS (normal, pressed/hold, outline, icon-only) ----------
+    "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": ["#FF5050", "#FF5050"],  // outline button background on hover; default: #5865f2
+    "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": ["#FF1919", "#FF1919"],  // outline button border while pressed; default: #4752c4
+    "CONTROL_BRAND_FOREGROUND": ["#FF5050", "#FF5050"],  // default: #949cf7
+    "CONTROL_BRAND_FOREGROUND_NEW": ["#FF5050", "#FF5050"],  // default: #949cf7
+    "CONTROL_ICON_ONLY_BACKGROUND_ACTIVE": ["#FF505033", "#FF505033"],  // default: #4e50588a
+    "CONTROL_PRIMARY_BACKGROUND_DEFAULT": ["#FF5050", "#FF5050"],  // primary button background; default: #5865f2
+    "CONTROL_PRIMARY_BORDER_DEFAULT": ["#FF5050", "#FF5050"],  // default: #5865f2
+    "CONTROL_ICON_ONLY_ICON_DEFAULT": ["#FF5050", "#FF5050"],  // default: #b5bac1
+    "INTERACTIVE_ACCENT_BACKGROUND_SELECTED": ["#FF5050", "#FF5050"],  // selected accent element; default: #5865f2
+    "MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT": ["#FF5050", "#FF5050"],  // default: #5865f2
+    "CONTROL_CONNECTED_TEXT_DEFAULT": ["#FF6565", "#FF6565"],  // default: #ffffff
+    "CONTROL_PRIMARY_BACKGROUND_ACTIVE": ["#E04040", "#E04040"],  // button background while pressed/held; default: #4752c4
+    "CONTROL_PRIMARY_BORDER_ACTIVE": ["#E04040", "#E04040"],  // button border while pressed/held; default: #4752c4
+    "INTERACTIVE_ACCENT_BACKGROUND_ACTIVE": ["#E04040", "#E04040"],  // accent element while pressed; default: #3a48a3
+
+    // ---------- NAVIGATION (header, server bar, tabs, channels) ----------
+    "MOBILE_GUILDBAR_ICON_DEFAULT": ["#FF5050", "#FF5050"],  // default: #b5bac1
+    "MOBILE_GUILDBAR_ICON_BACKGROUND_DEFAULT": ["#FF50501F", "#FF50501F"],  // default: #111214
+    "MOBILE_HEADER_ICON_DEFAULT": ["#FF5050", "#FF5050"],  // default: #b5bac1
+    "CHANNEL_ICON": ["#CC2525", "#CC2525"],  // channel icon (#, @, lock); default: #80848e
+    "CHANNELS_DEFAULT": ["#D74141", "#D74141"],  // channel name color; default: #949ba4
+    "TAB_LABEL_TEXT_FOCUSED": ["#FF5E5E", "#FF5E5E"],  // default: #ffffff
+    "MOBILE_UNREADBAR_TEXT_DEFAULT": ["#FF8983", "#FF8983"],  // 'new messages' bar text; default: #949cf7
+
+    // ---------- MESSAGES (mentions, replies, highlight, reactions, polls, code) ----------
+    "BACKGROUND_ACCENT": ["#CF4040", "#CF4040"],  // reply line / profile edit button; default: #41434a
+    "MENTION_FOREGROUND": ["#FF594E", "#FF594E"],  // @mention text; default: #c9cdfb
+    "MENTION_BACKGROUND": ["#A11B1E3D", "#A11B1E3D"],  // @mention background; default: #5865f24d
+    "MESSAGE_MENTIONED_BACKGROUND_DEFAULT": ["#F65C5C1a", "#F65C5C1a"],  // message that mentions you; default: #f0b2321a
+    "MESSAGE_MENTIONED_BACKGROUND_HOVER": ["#F65C5C14", "#F65C5C14"],  // default: #f0b23214
+    "MESSAGE_HIGHLIGHT_BACKGROUND_DEFAULT": ["#F65C5C1a", "#F65C5C1a"],  // highlighted/replied-to message; default: #949cf714
+    "MESSAGE_HIGHLIGHT_BACKGROUND_HOVER": ["#F65C5C0F", "#F65C5C0F"],  // default: #949cf70f
+    "REACTION_BACKGROUND_REACTED_DEFAULT": ["#FF505026", "#FF505026"],  // reaction you added: background; default: #5865f226
+    "REACTION_BORDER_REACTED_DEFAULT": ["#FF5050", "#FF5050"],  // reaction you added: border; default: #4752c4
+    "REACTION_TEXT_REACTED_DEFAULT": ["#FFDAD7", "#FFDAD7"],  // reaction you added: count text; default: #dee0fc
+    "POLLS_VOTED_FILL": ["#FF505033", "#FF505033"],  // voted poll option fill; default: #5865f233
+    "BACKGROUND_CODE": ["#FF505014", "#FF505014"],  // inline code background; default: #5865f214
+
+    // ---------- ICONS ----------
+    "ICON_DEFAULT": ["#FF5050", "#FF5050"],  // default: #dbdee1
+    "ICON_SUBTLE": ["#FF5050", "#FF5050"],  // default: #b5bac1
+    "INTERACTIVE_ICON_DEFAULT": ["#FF5050", "#FF5050"],  // default: #b5bac1
+    "INTERACTIVE_ICON_HOVER": ["#D53E3E", "#D53E3E"],  // default: #dbdee1
+    "INPUT_ICON_DEFAULT": ["#FF5050", "#FF5050"],  // default: #dbdee1
+    "TABLEROW_ICON_COLOR_DEFAULT": ["#FF5050", "#FF5050"],  // default: #b5bac1
+
+    // ---------- TEXT & LINKS ----------
+    "TEXT_BRAND": ["#FF5050", "#FF5050"],  // brand-colored text; default: #949cf7
+    "TEXT_LINK": ["#FF5050", "#FF5050"],  // link text; default: #5a9ef1
+
+    // ---------- BACKGROUNDS & BORDERS ----------
+    "APP_FRAME_BORDER": ["#2b2d31", "#2b2d31"],  // app frame border; default: #2b2d31
+    "BACKGROUND_BRAND": ["#FF5050", "#FF5050"],  // default: #5865f2
+    "BORDER_FOCUS": ["#FF5050", "#FF5050"],  // focus outline; default: #00aafc
+
+    // ---------- STATUS, PROGRESS, BADGES, DATE PICKER ----------
+    "BADGE_BACKGROUND_BRAND": ["#FF5050", "#FF5050"],  // default: #5865f2
+    "STATUS_WARNING": ["#EB4848", "#EB4848"],  // warning color; default: #f0b232
+    "PROGRESSBAR_INDICATOR_BACKGROUND": ["#FF5050", "#FF5050"],  // progress bar fill; default: #5865f2
+    "STATUS_WARNING_BACKGROUND": ["#C82626", "#C82626"],  // warning background; default: #f0b232
+    "DATEPICKER_RANGE_BACKGROUND_DEFAULT": ["#FF505066", "#FF505066"],  // default: #5865f266
+    "DATEPICKER_RANGE_BACKGROUND_HOVER": ["#FF505099", "#FF505099"]  // default: #5865f299
+  },
+
+  "rawColors": {
+
+    // ---------- BRAND_*  (main accent: switches, brand buttons, links) ----------
+    "BRAND_260": "#FFB3AE",
+    "BRAND_300": "#FF8983",
+    "BRAND_330": "#FF8983",
+    "BRAND_345": "#F65C5C",
+    "BRAND_360": "#F65C5C",
+    "BRAND_400": "#F65C5C",
+    "BRAND_430": "#D73E42",
+    "BRAND_460": "#D73E42",
+    "BRAND_500": "#D73E42",
+    "BRAND_530": "#D73E42",
+    "BRAND_560": "#B91B29",
+    "BRAND_600": "#B91B29",
+    "BRAND_630": "#930018",
+    "BRAND_660": "#930018",
+    "BRAND_700": "#790012",
+    "BRAND_730": "#710010",
+    "BRAND_760": "#68000E",
+    "BRAND_800": "#5C000B",
+
+    // ---------- RED_*  (errors, pings, destructive) ----------
+    "RED_260": "#FFB4A8",
+    "RED_300": "#FF8A79",
+    "RED_330": "#FF8A79",
+    "RED_345": "#FF5544",
+    "RED_360": "#FF5544",
+    "RED_400": "#FF5544",
+    "RED_430": "#E7251A",
+    "RED_460": "#E7251A",
+    "RED_500": "#E7251A",
+    "RED_530": "#E7251A",
+    "RED_560": "#C00000",
+    "RED_600": "#C00000",
+    "RED_630": "#930000",
+    "RED_660": "#930000",
+    "RED_700": "#790000",
+    "RED_730": "#710000",
+    "RED_760": "#690000",
+    "RED_800": "#5D0000",
+
+    // ---------- BLUE_*  (info, links) ----------
+    "BLUE_260": "#FFB4A8",
+    "BLUE_300": "#FF8A79",
+    "BLUE_330": "#FF8A79",
+    "BLUE_345": "#FF5544",
+    "BLUE_360": "#FF5544",
+    "BLUE_400": "#FF5544",
+    "BLUE_430": "#EB1910",
+    "BLUE_460": "#EB1910",
+    "BLUE_500": "#EB1910",
+    "BLUE_530": "#EB1910",
+    "BLUE_560": "#C00000",
+    "BLUE_600": "#C00000",
+    "BLUE_630": "#930000",
+    "BLUE_660": "#930000",
+    "BLUE_700": "#790000",
+    "BLUE_730": "#710000",
+    "BLUE_760": "#690000",
+    "BLUE_800": "#5D0000",
+
+    // ---------- YELLOW_*  (warnings) ----------
+    "YELLOW_260": "#FFB3AD",
+    "YELLOW_300": "#F65C5C",
+    "YELLOW_330": "#FF8982",
+    "YELLOW_345": "#FF5353",
+    "YELLOW_360": "#FF5353",
+    "YELLOW_400": "#FF5353",
+    "YELLOW_430": "#EE0029",
+    "YELLOW_460": "#EE0029",
+    "YELLOW_500": "#EE0029",
+    "YELLOW_530": "#EE0029",
+    "YELLOW_560": "#C0001F",
+    "YELLOW_600": "#C0001F",
+    "YELLOW_630": "#930015",
+    "YELLOW_660": "#930015",
+    "YELLOW_700": "#79000F",
+    "YELLOW_730": "#71000D",
+    "YELLOW_760": "#68000C",
+    "YELLOW_800": "#5C0009",
+
+    // ---------- GREEN_*  (online, invite/add-friend buttons) ----------
+    "GREEN_260": "#FF5050",
+    "GREEN_300": "#FF5050",
+    "GREEN_330": "#FF5050",
+    "GREEN_345": "#FF5050",
+    "GREEN_360": "#FF5050",
+    "GREEN_400": "#FF5050",
+    "GREEN_430": "#FF5050",
+    "GREEN_460": "#FF5050",
+    "GREEN_500": "#FF5050",
+    "GREEN_530": "#FF5050",
+    "GREEN_560": "#FF5050",
+    "GREEN_600": "#FF5050",
+    "GREEN_630": "#FF5050",
+    "GREEN_660": "#FF5050",
+    "GREEN_700": "#FF5050",
+    "GREEN_730": "#FF5050",
+    "GREEN_760": "#FF5050",
+    "GREEN_800": "#FF5050",
+
+    // ---------- BLURPLE_*  (default Discord blurple; many semantic colors reference it) ----------
+    "BLURPLE_1": "#FFE6E6",
+    "BLURPLE_2": "#FFE3E3",
+    "BLURPLE_3": "#FFDFDF",
+    "BLURPLE_4": "#FFDBDB",
+    "BLURPLE_5": "#FFD8D8",
+    "BLURPLE_6": "#FFD4D4",
+    "BLURPLE_7": "#FFD1D1",
+    "BLURPLE_8": "#FFCDCD",
+    "BLURPLE_9": "#FFCACA",
+    "BLURPLE_10": "#FFC7C7",
+    "BLURPLE_11": "#FFC3C3",
+    "BLURPLE_12": "#FFC0C0",
+    "BLURPLE_13": "#FFBCBC",
+    "BLURPLE_14": "#FFB9B9",
+    "BLURPLE_15": "#FFB6B6",
+    "BLURPLE_16": "#FFB3B3",
+    "BLURPLE_17": "#FFB0B0",
+    "BLURPLE_18": "#FFACAC",
+    "BLURPLE_19": "#FFA9A9",
+    "BLURPLE_20": "#FFA6A6",
+    "BLURPLE_21": "#FFA3A3",
+    "BLURPLE_22": "#FFA0A0",
+    "BLURPLE_23": "#FF9D9D",
+    "BLURPLE_24": "#FF9A9A",
+    "BLURPLE_25": "#FF9797",
+    "BLURPLE_26": "#FF9494",
+    "BLURPLE_27": "#FE9191",
+    "BLURPLE_28": "#FE8F8F",
+    "BLURPLE_29": "#FD8C8C",
+    "BLURPLE_30": "#FD8989",
+    "BLURPLE_31": "#FC8686",
+    "BLURPLE_32": "#FB8383",
+    "BLURPLE_33": "#FB8181",
+    "BLURPLE_34": "#FA7E7E",
+    "BLURPLE_35": "#FA7C7C",
+    "BLURPLE_36": "#F97979",
+    "BLURPLE_37": "#F97676",
+    "BLURPLE_38": "#F87474",
+    "BLURPLE_39": "#F87171",
+    "BLURPLE_40": "#F76F6F",
+    "BLURPLE_41": "#F66C6C",
+    "BLURPLE_42": "#F66A6A",
+    "BLURPLE_43": "#F56868",
+    "BLURPLE_44": "#F56565",
+    "BLURPLE_45": "#F46363",
+    "BLURPLE_46": "#F46161",
+    "BLURPLE_47": "#F35F5F",
+    "BLURPLE_48": "#F35D5D",
+    "BLURPLE_49": "#F25A5A",
+    "BLURPLE_50": "#F25858",
+    "BLURPLE_51": "#EC5656",
+    "BLURPLE_52": "#E65454",
+    "BLURPLE_53": "#E05252",
+    "BLURPLE_54": "#DB5050",
+    "BLURPLE_55": "#D54E4E",
+    "BLURPLE_56": "#D24A4A",
+    "BLURPLE_57": "#D04545",
+    "BLURPLE_58": "#CF3E3E",
+    "BLURPLE_59": "#CD3939",
+    "BLURPLE_60": "#CC3333",
+    "BLURPLE_61": "#C63232",
+    "BLURPLE_62": "#C13030",
+    "BLURPLE_63": "#BC2F2F",
+    "BLURPLE_64": "#B62E2E",
+    "BLURPLE_65": "#B12C2C",
+    "BLURPLE_66": "#AC2B2B",
+    "BLURPLE_67": "#A62A2A",
+    "BLURPLE_68": "#A22828",
+    "BLURPLE_69": "#9C2727",
+    "BLURPLE_70": "#972626",
+    "BLURPLE_71": "#922424",
+    "BLURPLE_72": "#8D2323",
+    "BLURPLE_73": "#892222",
+    "BLURPLE_74": "#842121",
+    "BLURPLE_75": "#7F2020",
+    "BLURPLE_76": "#7A1E1E",
+    "BLURPLE_77": "#751D1D",
+    "BLURPLE_78": "#701C1C",
+    "BLURPLE_79": "#6B1B1B",
+    "BLURPLE_80": "#671A1A",
+    "BLURPLE_81": "#621919",
+    "BLURPLE_82": "#5E1717",
+    "BLURPLE_83": "#591616",
+    "BLURPLE_84": "#561515",
+    "BLURPLE_85": "#511414",
+    "BLURPLE_86": "#4D1313",
+    "BLURPLE_87": "#481212",
+    "BLURPLE_88": "#451010",
+    "BLURPLE_89": "#410F0F",
+    "BLURPLE_90": "#3D0D0D",
+    "BLURPLE_91": "#3A0C0C",
+    "BLURPLE_92": "#360A0A",
+    "BLURPLE_93": "#320909",
+    "BLURPLE_94": "#2E0808",
+    "BLURPLE_95": "#290606",
+    "BLURPLE_96": "#240505",
+    "BLURPLE_97": "#1E0404",
+    "BLURPLE_98": "#160303",
+    "BLURPLE_99": "#0C0101",
+    "BLURPLE_100": "#000000",
+
+    // ---------- BLUE_NEW_*  (new blue palette, e.g. default TEXT_LINK = BLUE_NEW_34) ----------
+    "BLUE_NEW_1": "#FFE5E5",
+    "BLUE_NEW_2": "#FFE0E0",
+    "BLUE_NEW_3": "#FFDCDC",
+    "BLUE_NEW_4": "#FFD7D7",
+    "BLUE_NEW_5": "#FFD3D3",
+    "BLUE_NEW_6": "#FFCECE",
+    "BLUE_NEW_7": "#FFCACA",
+    "BLUE_NEW_8": "#FFC5C5",
+    "BLUE_NEW_9": "#FFC1C1",
+    "BLUE_NEW_10": "#FFBDBD",
+    "BLUE_NEW_11": "#FFB8B8",
+    "BLUE_NEW_12": "#FFB4B4",
+    "BLUE_NEW_13": "#FFB0B0",
+    "BLUE_NEW_14": "#FFABAB",
+    "BLUE_NEW_15": "#FEA7A7",
+    "BLUE_NEW_16": "#FDA3A3",
+    "BLUE_NEW_17": "#FD9F9F",
+    "BLUE_NEW_18": "#FC9B9B",
+    "BLUE_NEW_19": "#FC9797",
+    "BLUE_NEW_20": "#FB9292",
+    "BLUE_NEW_21": "#FA8E8E",
+    "BLUE_NEW_22": "#FA8A8A",
+    "BLUE_NEW_23": "#F98686",
+    "BLUE_NEW_24": "#F88282",
+    "BLUE_NEW_25": "#F87E7E",
+    "BLUE_NEW_26": "#F77A7A",
+    "BLUE_NEW_27": "#F67676",
+    "BLUE_NEW_28": "#F57272",
+    "BLUE_NEW_29": "#F56E6E",
+    "BLUE_NEW_30": "#F46A6A",
+    "BLUE_NEW_31": "#F36666",
+    "BLUE_NEW_32": "#F26262",
+    "BLUE_NEW_33": "#F15E5E",
+    "BLUE_NEW_34": "#FF5050",
+    "BLUE_NEW_35": "#F05656",
+    "BLUE_NEW_36": "#EF5252",
+    "BLUE_NEW_37": "#EE4D4D",
+    "BLUE_NEW_38": "#ED4949",
+    "BLUE_NEW_39": "#EC4545",
+    "BLUE_NEW_40": "#EC4040",
+    "BLUE_NEW_41": "#EB3C3C",
+    "BLUE_NEW_42": "#EA3737",
+    "BLUE_NEW_43": "#E93232",
+    "BLUE_NEW_44": "#E82D2D",
+    "BLUE_NEW_45": "#E72727",
+    "BLUE_NEW_46": "#E72121",
+    "BLUE_NEW_47": "#E61A1A",
+    "BLUE_NEW_48": "#E51212",
+    "BLUE_NEW_49": "#E40505",
+    "BLUE_NEW_50": "#E30000",
+    "BLUE_NEW_51": "#DE0000",
+    "BLUE_NEW_52": "#D90000",
+    "BLUE_NEW_53": "#D40000",
+    "BLUE_NEW_54": "#CF0101",
+    "BLUE_NEW_55": "#CA0202",
+    "BLUE_NEW_56": "#C60202",
+    "BLUE_NEW_57": "#C10303",
+    "BLUE_NEW_58": "#BC0303",
+    "BLUE_NEW_59": "#B80303",
+    "BLUE_NEW_60": "#B30202",
+    "BLUE_NEW_61": "#AF0202",
+    "BLUE_NEW_62": "#AB0101",
+    "BLUE_NEW_63": "#A60101",
+    "BLUE_NEW_64": "#A20000",
+    "BLUE_NEW_65": "#9E0000",
+    "BLUE_NEW_66": "#9A0000",
+    "BLUE_NEW_67": "#960000",
+    "BLUE_NEW_68": "#920000",
+    "BLUE_NEW_69": "#8E0000",
+    "BLUE_NEW_70": "#8A0000",
+    "BLUE_NEW_71": "#860000",
+    "BLUE_NEW_72": "#820000",
+    "BLUE_NEW_73": "#7E0000",
+    "BLUE_NEW_74": "#7A0000",
+    "BLUE_NEW_75": "#760000",
+    "BLUE_NEW_76": "#730000",
+    "BLUE_NEW_77": "#6F0000",
+    "BLUE_NEW_78": "#6B0000",
+    "BLUE_NEW_79": "#680000",
+    "BLUE_NEW_80": "#640000",
+    "BLUE_NEW_81": "#600000",
+    "BLUE_NEW_82": "#5D0000",
+    "BLUE_NEW_83": "#590000",
+    "BLUE_NEW_84": "#560000",
+    "BLUE_NEW_85": "#520000",
+    "BLUE_NEW_86": "#4F0000",
+    "BLUE_NEW_87": "#4B0000",
+    "BLUE_NEW_88": "#480000",
+    "BLUE_NEW_89": "#450000",
+    "BLUE_NEW_90": "#410000",
+    "BLUE_NEW_91": "#3E0000",
+    "BLUE_NEW_92": "#3B0000",
+    "BLUE_NEW_93": "#370000",
+    "BLUE_NEW_94": "#330000",
+    "BLUE_NEW_95": "#2F0000",
+    "BLUE_NEW_96": "#2A0000",
+    "BLUE_NEW_97": "#240000",
+    "BLUE_NEW_98": "#1D0000",
+    "BLUE_NEW_99": "#140000",
+    "BLUE_NEW_100": "#070000",
+
+    // ---------- ILLO_BLUE_* / PREMIUM_* (blurple at #5865f2 – candidates for voice message play button) ----------
+    "ILLO_BLUE_10": "#FF5050",
+    "ILLO_BLUE_20": "#FF5050",
+    "ILLO_BLUE_30": "#FF5050",
+    "ILLO_BLUE_40": "#FF5050",
+    "ILLO_BLUE_50": "#FF5050",
+    "ILLO_BLUE_60": "#FF5050",
+    "ILLO_BLUE_70": "#FF5050",
+    "PREMIUM_TIER_0_PURPLE": "#FF5050",
+    "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS": "#FF5050",
+    "PREMIUM_TIER_1_BLUE_FOR_GRADIENTS": "#FF5050"
+  }
+}
