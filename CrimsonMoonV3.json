@@ -57,6 +57,10 @@
         "#FF5050",
         "#FF5050"
     ],
+        "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": [
+          "FF1919",
+          "FF1919"
+    ],
     "TEXT_BRAND": [
       "#FF5050",
       "#FF5050"
