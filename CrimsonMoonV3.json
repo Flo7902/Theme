@@ -38,8 +38,8 @@
         "#FF5050"
     ],
         "SWITCH_THUMB_ICON_ACTIVE": [
-        "#FFFFFF",
-        "#FFFFFF"
+        "#FF5050",
+        "#FF5050"
     ],
     "BG_BRAND": [
       "#FF5050",
@@ -190,8 +190,8 @@
       "#D74141"
     ],
     "SWITCH_THUMB_BACKGROUND_SELECTED_DEFAULT": [
-      "#F15A5A",
-      "#F15A5A"
+      "#FFFFFF",
+      "#FFFFFF"
     ],
     "TAB_LABEL_TEXT_FOCUSED": [
       "#FF5E5E",
