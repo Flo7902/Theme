@@ -58,8 +58,8 @@
         "#FF5050"
     ],
         "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": [
-          "FF1919",
-          "FF1919"
+          "#FF1919",
+          "#FF1919"
     ],
     "TEXT_BRAND": [
       "#FF5050",
@@ -290,7 +290,7 @@
     "BLUE_730": "#710000",
     "BLUE_760": "#690000",
     "BLUE_800": "#5D0000",
-    "BLUE_NEW_34": "FF5050",
+    "BLUE_NEW_34": "#FF5050",
     "YELLOW_260": "#FFB3AD",
     "YELLOW_300": "#F65C5C",
     "YELLOW_330": "#FF8982",
